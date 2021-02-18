@@ -33,8 +33,8 @@ Initial == \* Pick some non-deterministic starting point
     /\ hr  \in Hours
     /\ min \in Minutes
 -----
-Clock == Initial /\ [][Tick]_time /\ WF_time(Tick)
+Clock == Initial /\ [][Tick]_time
 =============================================================================
 \* Modification History
-\* Last modified Thu Feb 18 09:14:47 GMT 2021 by alunm
+\* Last modified Mon Feb 15 20:30:02 GMT 2021 by alunm
 \* Created Mon Feb 15 12:12:41 GMT 2021 by alunm
